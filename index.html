@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jeremy Ivanka Nursalim | Portfolio</title>
+  <!-- Google Fonts: Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- External Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="logo">JIN</a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-item active">Home</a></li>
+        <li><a href="#about" class="nav-item">About</a></li>
+        <li><a href="#projects" class="nav-item">Projects</a></li>
+        <li><a href="#services" class="nav-item">Services</a></li>
+        <li><a href="#skills" class="nav-item">Skills</a></li>
+        <li><a href="#contact" class="nav-item">Contact</a></li>
+      </ul>
+
+      <a href="#contact" class="btn-pill btn-pill-nav">Let's Talk</a>
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Navigation">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HOME -->
+  <section id="home" class="hero-section">
+    <div class="hero-container">
+      <h1 class="hero-title">
+        Hi! I'm Jeremy,<br>welcome to my portfolio
+      </h1>
+      <p class="hero-subtitle">
+        Informatics Engineering student at Universitas Pelita Harapan, interested in building web applications and designing interfaces that are simple to use.
+      </p>
+      <div class="hero-cta">
+        <a href="#contact" class="btn-pill btn-pill-hero">Let's Talk</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about-section">
+    <div class="about-card">
+      <div class="about-header">
+
+        <!--
+          FOTO PERKENALAN:
+          1. Simpan foto kamu di folder "images" (sebelah file HTML ini)
+          2. Beri nama "foto-saya.jpg" (atau ganti src di bawah sesuai nama file kamu)
+          Selama foto belum ada, kotak placeholder akan tampil.
+        -->
+        <div class="about-photo">
+          <div class="about-photo-placeholder">
+            <i class="fa-solid fa-user"></i>
+            <span>Put your photo here</span>
+          </div>
+          <img src="foto.JPG" alt="Photo of Jeremy Ivanka Nursalim" onerror="this.style.display='none'">
+        </div>
+
+        <h2 class="section-title text-dark">About Me</h2>
+        <p class="about-description">
+          I'm Jeremy Ivanka Nursalim, born in 2006. I'm currently studying Informatics Engineering (Teknik Informatika) at Universitas Pelita Harapan. This portfolio is a mini project where I collect the things I've built and learned so far.
+        </p>
+      </div>
+
+      <!-- Education / Experience -->
+      <div class="experience-container">
+        <h3 class="experience-title">Education &amp; Experience</h3>
+
+        <div class="experience-item">
+          <div class="experience-date">20XX - Present</div>
+          <div class="experience-content">
+            <h4>Informatics Engineering Student</h4>
+            <p>Universitas Pelita Harapan (UPH). <!-- Tambahkan detail: IPK, organisasi, mata kuliah favorit, dll. --></p>
+          </div>
+        </div>
+
+        <!-- Salin blok di bawah ini untuk menambah pengalaman (magang, organisasi, kepanitiaan, dll.) -->
+        <div class="experience-item">
+          <div class="experience-date">Start - End</div>
+          <div class="experience-content">
+            <h4>Role / Position</h4>
+            <p>Describe what you did here.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="dark-section projects-section">
+    <div class="section-container">
+      <h2 class="section-title text-light text-center">Selected Projects</h2>
+      <p class="section-subtitle text-center">Two things I've built so far</p>
+
+      <div class="projects-grid">
+
+        <!-- Project 1 -->
+        <div class="project-card">
+          <!--
+            Taruh gambar/screenshot project 1 di folder "images", lalu ganti src di bawah,
+            contoh: images/project-1.png
+          -->
+          <div class="project-thumbnail">
+            <div class="project-placeholder">
+              <i class="fa-regular fa-image"></i>
+              <span>Project 1 screenshot</span>
+            </div>
+            <img src="images/project-1.png" alt="Project 1 thumbnail" onerror="this.style.display='none'">
+          </div>
+          <h3 class="project-title">Project 1 Title</h3>
+          <p class="project-desc">Short description of your first project.</p>
+          <div class="project-buttons">
+            <!-- Ganti "#" dengan link demo / repo kamu -->
+            <a href="#" target="_blank" rel="noopener noreferrer" class="btn-pill btn-pill-dark">
+              <i class="fa-solid fa-link"></i> Live
+            </a>
+            <a href="#" target="_blank" rel="noopener noreferrer" class="btn-pill btn-pill-dark">
+              <i class="fa-brands fa-github"></i> Github
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+          <div class="project-thumbnail">
+            <div class="project-placeholder">
+              <i class="fa-regular fa-image"></i>
+              <span>Project 2 screenshot</span>
+            </div>
+            <img src="images/project-2.png" alt="Project 2 thumbnail" onerror="this.style.display='none'">
+          </div>
+          <h3 class="project-title">Project 2 Title</h3>
+          <p class="project-desc">Short description of your second project.</p>
+          <div class="project-buttons">
+            <a href="#" target="_blank" rel="noopener noreferrer" class="btn-pill btn-pill-dark">
+              <i class="fa-solid fa-link"></i> Live
+            </a>
+            <a href="#" target="_blank" rel="noopener noreferrer" class="btn-pill btn-pill-dark">
+              <i class="fa-brands fa-github"></i> Github
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="dark-section services-section">
+    <div class="section-container">
+      <div class="services-header">
+        <h2 class="section-title text-light">Services</h2>
+        <p class="section-subtitle">I can help you with</p>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-item">
+          <h3>UI/UX Design</h3>
+          <p>Designing clean and simple interfaces, from wireframes to polished mockups.</p>
+        </div>
+
+        <div class="service-item">
+          <h3>Web Development</h3>
+          <p>Building responsive websites and web applications with HTML, CSS, and JavaScript.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="dark-section skills-section">
+    <div class="section-container">
+      <div class="services-header">
+        <h2 class="section-title text-light">Skills &amp; Tools</h2>
+        <p class="section-subtitle">Core technical competencies</p>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-card">
+          <i class="fa-brands fa-html5"></i>
+          <span>HTML5 / CSS3</span>
+        </div>
+        <div class="skill-card">
+          <i class="fa-brands fa-js"></i>
+          <span>JavaScript</span>
+        </div>
+        <div class="skill-card">
+          <i class="fa-brands fa-figma"></i>
+          <span>Figma UI/UX</span>
+        </div>
+        <div class="skill-card">
+          <i class="fa-brands fa-python"></i>
+          <span>Python</span>
+        </div>
+        <div class="skill-card">
+          <i class="fa-brands fa-react"></i>
+          <span>React.js</span>
+        </div>
+        <div class="skill-card">
+          <i class="fa-brands fa-git-alt"></i>
+          <span>Git / Github</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT (isi sendiri) -->
+  <section id="contact" class="dark-section contact-section">
+    <div class="section-container">
+      <div class="services-header">
+        <h2 class="section-title text-light">Contact</h2>
+        <p class="section-subtitle">Let's work together</p>
+      </div>
+
+      <div class="contact-list">
+        <!-- Ganti teks dan href sesuai kontak kamu -->
+        <a href="mailto:" class="contact-item">
+          <i class="fa-solid fa-envelope"></i>
+          <span>Your email here</span>
+        </a>
+        <a href="#" class="contact-item">
+          <i class="fa-solid fa-phone"></i>
+          <span>Your phone number here</span>
+        </a>
+        <a href="#" class="contact-item">
+          <i class="fa-solid fa-location-dot"></i>
+          <span>Your location here</span>
+        </a>
+      </div>
+
+      <div class="services-cta">
+        <a href="mailto:" class="btn-pill btn-pill-hero">Get In Touch</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer dark-section">
+    <div class="footer-container">
+      <a href="#home" class="logo">JIN</a>
+      <div class="social-links">
+        <!-- Ganti "#" dengan link sosial media kamu -->
+        <a href="#" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <a href="#" target="_blank" rel="noopener noreferrer">Github</a>
+        <a href="#" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- External JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
